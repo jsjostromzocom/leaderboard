@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.wrapper {
+  min-width: 600px;
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: auto;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+header {
+  display: flex;
+  background-color: #f3afff;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: whitesmoke;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: 0.5rem;
+}
+
+.table-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  width: 100%;
+  height: 3.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid gray;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.table-header p {
+  margin: 0.1rem;
+  padding: 0.1rem;
+}
+
+.table-entry {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-entry:hover {
+  background-color: rgb(240, 240, 240);
+  cursor: default;
+}
+.table-entry p {
+  height: 3rem;
+  margin: 0.1rem;
+  padding: 0.1rem;
+  align-items: center;
+}
+
+.place {
+  width: 2rem;
+}
+
+.avatar-column {
+  min-width: 3rem;
+}
+
+.avatar-img {
+  max-height: 2.6rem;
+  padding-left: 0px;
+  border-radius: 100%;
+}
+
+.name {
+  min-width: 100px;
+  flex-grow: 1;
+}
+
+.group {
+  width: 120px;
+  flex-grow: 1;
+}
+
+.first-place-count,
+.second-place-count,
+.third-place-count {
+  width: 2.5rem;
+}
+
+.points {
+  display: flex;
+  width: 4rem;
+  justify-content: center;
+}
+
+.place,
+.avatar-column,
+.first-place-count,
+.second-place-count,
+.third-place-count,
+.points {
+  display: flex;
+  justify-content: center;
+}
+.name,
+.group {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.place-count-img {
+  max-height: 2.5rem;
+  padding-left: 0px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+}
